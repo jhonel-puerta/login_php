@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(116, 113, 113, 0.863);
+}
+.title-edit{
+    color: rgba(12, 12, 17, 0.794);
+    font-size: 50px;
+    text-align: left;
+}
+.input{
+    outline: none;
+    border: none;
+    background: rgb(218, 216, 214);
+    border-radius: 8px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+.btnedit{
+    outline: none;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(8, 170, 8);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}

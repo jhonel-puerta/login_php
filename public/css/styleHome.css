@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body{
+    position: relative;
+}
+main{
+    display: flex;
+}
+#left-cont{
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+#data-user{
+    position: relative;
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #3498DB;
+    box-shadow: 0 0 20px rgb(145, 147, 149);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.cont-foto{
+    position: absolute;
+    top: -50px;
+    right: 45%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(213, 216, 220);
+    background: url(../images/craker.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cont-info{
+    margin-top: 60px;
+    color: white;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cont-info h1{
+    margin-top: 5px;
+}
+#lista-cursos{
+    width: 90%;
+    margin-top: 30px;
+}
+.curso{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(199, 191, 191);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+}
+.curso h1{
+    color: #2C3E50;
+    font-size: 30px;
+    font-weight: bold;
+}
+.curso p{
+    font-size: 15px;
+    color: #ABB2B9;
+    
+}
+.cont-desc-curso{
+    width: 80%;
+    overflow: hidden;
+}
+.fotocurso{
+    width: 300px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*--------------------*/
+#right-cont{
+    margin-top: 30px;
+    width: 45%;
+    margin-left: 20px;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(171, 178, 185);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+}
+.title{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(171, 178, 185);
+    font-size: 30px;
+    color:#2C3E50;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.cont-comp{
+    width: 90%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(171, 178, 185);
+}
+.cont-comp h1{
+    font-size: 20px;
+    color: #5D6D7E;
+}
+.cont-comp h2{
+    font-size: 15px;
+    color: #ABB2B9;
+}
+#btns-action{
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    display: scroll;
+    right: 30px;
+    top: 30px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+}
+.ico{
+    font-size: 40px;
+}
